@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "my-bucket122" {
-  name                     = "bkt-demo-alam-000"
+  name                     = "bkt-demo-alam-0001"
   location                 = "us-central1"
   project                  = "terraform-project-470015"
   force_destroy            = true
@@ -7,7 +7,7 @@ resource "google_storage_bucket" "my-bucket122" {
 }
 
 resource "google_storage_bucket" "my-bucket201" {
-  name                     = "bkt-demo-alam-002"
+  name                     = "bkt-demo-alam-00222"
   location                 = "us-central1"
   project                  = "terraform-project-470015"
   force_destroy            = true

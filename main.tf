@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "my-bucket" {
+resource "google_storage_bucket" "my-bucket19" {
   name                     = "bkt-demo-alam-000"
   location                 = "us-central1"
   project                  = "terraform-project"
@@ -6,7 +6,7 @@ resource "google_storage_bucket" "my-bucket" {
   public_access_prevention = "enforced"
 }
 
-resource "google_storage_bucket" "my-bucket2" {
+resource "google_storage_bucket" "my-bucket20" {
   name                     = "bkt-demo-alam-002"
   location                 = "us-central1"
   project                  = "terraform-project"
